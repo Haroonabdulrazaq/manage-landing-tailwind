@@ -8,6 +8,24 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <h1 class="text-4xl">Hello world</h1>
+ <!-- Navbar -->
+ <nav class="relative container mx-auto p-6">
+  <!-- Flex container -->
+  <div class="flex items-center justify-between">
+    <!-- Logo -->
+    <div class="pt-2 border-red">
+      <img src="img/logo.svg" alt="" />
+    </div>
+    <!-- Menu Items -->
+    <div class="hidden md:flex space-x-12">
+      <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+      <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+      <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+      <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+    </div>
+    <!-- Button -->
+    <a href="#" class="hidden md:block py-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+  </div>
+ </nav>
 </body>
 </html>
