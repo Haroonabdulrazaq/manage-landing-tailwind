@@ -7,21 +7,21 @@ This project is a Challenge from [frontendmentor.io](https://www.frontendmentor.
 - JavaScript
 
 ## :camera: Screenshot 
-![screenshot](/img/manage-screenshot-responsiveness.png?raw=true)
+![screenshot](/img/manage-screenshot-responsiveness.png)
 
 ## :rocket: Live Demo
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/manage-landing-tailwind/)
 
-# Configuration
+## Configuration
 tailwind.config.js, I added custom colors
 
-# Install Tailwind plugin
+## Install Tailwind plugin
 npm install -D prettier prettier-plugin-tailwindcss
 
-# Installation
+## Installation
 - Install the project with <code>npm install</code>
 - build the tailwind classes to css using <code>npm run build</code>
 - Run the project with <code>npm run watch</code>
 
-# Contributor  :nerd_face:
+## Contributor  :nerd_face:
 [Haroon Abdulrazaq](http://haroonabdulrazaq.tech/)
