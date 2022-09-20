@@ -1,9 +1,10 @@
 # Project
-This project is a Challenge from (frontendmentor.io)[https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5]. I practiced it with Tailwindcss 
+This project is a Challenge from [frontendmentor.io](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). I practiced it with Tailwindcss 
 
 # Tools
 - HTML
 - Tailwindcss
+- JavaScript
 
 
 
