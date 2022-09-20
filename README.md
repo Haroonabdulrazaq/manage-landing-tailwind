@@ -7,7 +7,7 @@ This project is a Challenge from [frontendmentor.io](https://www.frontendmentor.
 - JavaScript
 
 ## :camera: Screenshot 
-![screenshot](/img/manage-screenshot-repoonsiveness.png?raw=true)
+![screenshot](/img/manage-screenshot-responsiveness.png?raw=true)
 
 ## :rocket: Live Demo
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/manage-landing-tailwind/)
