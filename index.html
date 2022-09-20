@@ -29,6 +29,21 @@
           class="hidden md:block py-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
           >Get Started</a
         >
+        <!-- Hambuger Icon -->
+        <Button id="menu-btn" class="block open hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </Button>
+      </div>
+      <!-- mobile Menu -->
+      <div id="menu" class="absolute flex flex-col items-center self-end
+          py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center
+          left-6 right-6 drop-shadow-md">
+        <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
       </div>
     </nav>
     <!-- Hero section -->
@@ -281,6 +296,13 @@
     </div>
   </div>
 </footer>
-     
+    <script>
+      const menuBtn = document.getElementById('menu-btn')
+      const menu = document.getElementById('menu')
+      menuBtn.addEventListener('click', ()=>{
+        menuBtn.classList.toggle("open");
+        menu.classList.toggle("hidden");
+      })
+    </script> 
   </body>
 </html>
