@@ -1,13 +1,13 @@
 # Project
 This project is a Challenge from [frontendmentor.io](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). I practiced it with Tailwindcss 
 
-# Tools :hammer_and_wrench:
+## Tools :hammer_and_wrench:
 - HTML
 - Tailwindcss
 - JavaScript
 
 ## :camera: Screenshot 
-![screenshot](/img/manage-screenshot-responsiveness.png)
+![Screenshot](/img/manage-screenshot-responsiveness.png)
 
 ## :rocket: Live Demo
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/manage-landing-tailwind/)
