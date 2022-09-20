@@ -7,7 +7,7 @@ This project is a Challenge from [frontendmentor.io](https://www.frontendmentor.
 - JavaScript
 
 ## :camera: Screenshot 
-![screenshot](./img/manage-screenshot-repoonsiveness.png)
+![screenshot](./img/manage-screenshot-repoonsiveness.PNG)
 
 
 ## :rocket: Live Demo
