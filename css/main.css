@@ -943,6 +943,10 @@ video {
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url('../img/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
@@ -1027,10 +1031,6 @@ body {
 }
 
 @media (min-width: 480px) {
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
