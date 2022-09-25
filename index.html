@@ -9,22 +9,23 @@
   </head>
   <body>
     <!-- Navbar -->
+    <header id="hero">
     <nav class="relative container mx-auto p-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2 border-red">
-          <img src="img/logo.svg" alt="logo" />
+          <img src="img/logo.svg" alt="Manage Landing Page" />
         </div>
         <!-- Menu Items -->
-        <div class="hidden md:flex space-x-12">
-          <a href="#pricing" class="hover:text-darkGrayishBlue">Pricing</a>
-          <a href="#main" class="hover:text-darkGrayishBlue">Product</a>
-          <a href="#main" class="hover:text-darkGrayishBlue">About Us</a>
-          <a href="#testimonials" class="hover:text-darkGrayishBlue"
-            >Community</a
+        <ul class="hidden md:flex space-x-12">
+          <li><a href="#pricing" class="hover:text-darkGrayishBlue">Pricing</a></li>
+          <li><a href="#main" class="hover:text-darkGrayishBlue">Product</a></li>
+          <li></li><a href="#main" class="hover:text-darkGrayishBlue">About Us</a></li>
+          <li></li><a href="#testimonials" class="hover:text-darkGrayishBlue"
+            >Community</a</li>
           >
-        </div>
+        </ul>
         <!-- Button -->
         <a
           href="#"
@@ -53,7 +54,7 @@
       </div>
     </nav>
     <!-- Hero section -->
-    <header id="hero">
+    
       <!-- Flex container -->
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0"
@@ -79,7 +80,7 @@
         </div>
         <!-- Right item -->
         <div class="md:w-1/2">
-          <img src="img/illustration-intro.svg" alt="illustration-intro" />
+          <img src="img/illustration-intro.svg" alt="illustration-introduction" />
         </div>
       </div>
     </header>
@@ -109,10 +110,10 @@
               <!-- Heading -->
               <div class="flex flex-col">
                 <div
-                  class="flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
+                  class="extend-shadow flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
                 >
                   <div
-                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                    class=" px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
                   >
                     01
                   </div>
@@ -133,7 +134,7 @@
               <!-- Heading -->
               <div class="flex flex-col">
                 <div
-                  class="flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
+                  class="extend-shadow flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
                 >
                   <div
                     class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
@@ -156,7 +157,7 @@
               <!-- Heading -->
               <div class="flex flex-col">
                 <div
-                  class="flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
+                  class="extend-shadow flex items-center mb-4 space-x-2 rounded-l-full bg-brightRedSupLight md:mb-6 md:bg-transparent"
                 >
                   <div
                     class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
@@ -270,11 +271,11 @@
     <footer class="bg-veryDarkBlue">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        class=" flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:justify-between md:flex-row md:space-y-0"
       >
         <!-- Logo and social links container -->
         <div
-          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-6 md:mr-5 md:items-start"
         >
           <div class="mx-auto my-6 text-center text-white md:hidden">
             Copyright &copy; 2022, All Rights Reserved
@@ -289,23 +290,23 @@
             <a href="#">
               <img
                 src="img/icon-facebook.svg"
-                alt="icon-facebook"
+                alt="facebook"
                 class="h-8"
               />
             </a>
             <!-- Link 2 -->
             <a href="#">
-              <img src="img/icon-youtube.svg" alt="icon-youtube" class="h-8" />
+              <img src="img/icon-youtube.svg" alt="youtube" class="h-8" />
             </a>
             <!-- Link 3 -->
             <a href="#">
-              <img src="img/icon-twitter.svg" alt="icon-twitter" class="h-8" />
+              <img src="img/icon-twitter.svg" alt="twitter" class="h-8" />
             </a>
             <!-- Link 4 -->
             <a href="#">
               <img
                 src="img/icon-pinterest.svg"
-                alt="icon-pinterest"
+                alt="pinterest"
                 class="h-8"
               />
             </a>
@@ -313,25 +314,25 @@
             <a href="#">
               <img
                 src="img/icon-instagram.svg"
-                alt="icon-instagram"
+                alt="instagram"
                 class="h-8"
               />
             </a>
           </div>
         </div>
         <!-- List Container -->
-        <div class="flex justify-around space-x-32">
-          <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">Home</a>
-            <a href="#" class="hover:text-brightRed">Pricing</a>
-            <a href="#" class="hover:text-brightRed">Products</a>
-            <a href="#" class="hover:text-brightRed">About</a>
-          </div>
-          <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">Careers</a>
-            <a href="#" class="hover:text-brightRed">Community</a>
-            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
-          </div>
+        <div class="flex justify-around space-x-6">
+          <ul class="flex flex-col space-y-3 text-white md:space-x-0">
+            <li><a href="#" class="hover:text-brightRed">Home</a></li>
+            <li><a href="#" class="hover:text-brightRed">Pricing</a></li>
+            <li><a href="#" class="hover:text-brightRed">Products</a></li>
+            <li><a href="#" class="hover:text-brightRed">About</a></li>
+          </ul>
+          <ul class="flex flex-col space-y-3 text-white md:space-x-0">
+            <li><a href="#" class="hover:text-brightRed">Careers</a></li>
+            <li><a href="#" class="hover:text-brightRed">Community</a></li>
+            <li><a href="#" class="hover:text-brightRed">Privacy Policy</a></li>
+          </ul>
         </div>
 
         <!-- Input Container -->
@@ -339,7 +340,7 @@
           <form>
             <div class="flex space-x-3">
               <input
-                type="text"
+                type="email"
                 class="flex-1 px-4 rounded-full focus:outline-none"
                 placeholder="Updated in your inbox"
               />
